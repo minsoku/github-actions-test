@@ -25,3 +25,8 @@ jobs:
           echo "첫 번째 문장"
           echo "두 번째 문장"
           echo "세 번째 문장"
+
+      - name: Github Actions에 저장되어 있는 변수 사용해보기
+        run: |
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
